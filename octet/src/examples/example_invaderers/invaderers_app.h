@@ -42,8 +42,9 @@ namespace octet {
     void init(int _texture, float x, float y, float w, float h) {
       modelToWorld.loadIdentity();
       modelToWorld.translate(x, y, 0);
-      halfWidth = w * 0.5f;
-      halfHeight = h * 0.5f;
+	  // ELOISE making the sprite larger by increasing the number value
+      halfWidth = w * 0.9f;
+      halfHeight = h * 0.9f;
       texture = _texture;
       enabled = true;
     }
