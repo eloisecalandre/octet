@@ -145,10 +145,11 @@ namespace octet {
     // shader to draw a textured triangle
     texture_shader texture_shader_;
 
+	// ELOISE changing number of sprites
     enum {
       num_sound_sources = 8,
       num_rows = 5,
-      num_cols = 10,
+      num_cols = 5,
       num_missiles = 2,
       num_bombs = 2,
       num_borders = 4,
