@@ -39,7 +39,11 @@ namespace octet { namespace shaders {
       const char fragment_shader[] = SHADER_STR(
         varying vec2 uv_;
         uniform sampler2D sampler;
-        void main() { gl_FragColor = texture2D(sampler, uv_); }
+		// ELOISE creating uniform colour
+		// uniform vec4 colour;
+		void main() {
+			gl_FragColor = texture2D(sampler, uv_);
+		}
       );
     
       // use the common shader code to compile and link the shaders
