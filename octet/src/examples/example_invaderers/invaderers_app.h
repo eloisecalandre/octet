@@ -32,6 +32,7 @@ namespace octet {
     int texture;
 
     // true if this sprite is enabled.
+// ELOISE the boolean is on or off, and below public is the perameters of the command 'private member variables' for memory purposes
     bool enabled;
   public:
     sprite() {
