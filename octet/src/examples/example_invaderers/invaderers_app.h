@@ -530,6 +530,7 @@ namespace octet {
         sprites[i].render(texture_shader_, cameraToWorld);
       }
 
+	  //ELOISE changing the text of the score value
       char score_text[32];
       sprintf(score_text, "vampires down: %d   lives: %d\n", score, num_lives);
       draw_text(texture_shader_, -1.75f, 2, 1.0f/256, score_text);
