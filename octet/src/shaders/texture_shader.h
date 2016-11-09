@@ -68,7 +68,9 @@ namespace octet { namespace shaders {
       shader::render();
 
 	  //ELOISE and MATTHEW transfering the original to the uniform
-	  float colourArray[4] = { 0.3, 0.4, 0.8, 1 };
+	  // float colourArray[4] = { 0.3, 0.4, 0.8, 1 };
+	  // ELOISE changing the colour again by calulating from RGB
+	  float colourArray[4] = { 1, 1, 0.5, 1 };
 	  glUniform4fv(colourIndex_, 1, colourArray);
 	 // glUniformi(cakeIndex_, )
 
