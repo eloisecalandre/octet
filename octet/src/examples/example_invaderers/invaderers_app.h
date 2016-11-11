@@ -472,10 +472,11 @@ namespace octet {
       cur_source = 0;
       alGenSources(num_sound_sources, sources);
 
+	  //ELOISE changing the speed of the invaderes by altering the invader_velocity value from 0.01f
       // sundry counters and game state.
       missiles_disabled = 0;
       bombs_disabled = 50;
-      invader_velocity = 0.01f;
+      invader_velocity = 0.05f;
       live_invaderers = num_invaderers;
       num_lives = 3;
       game_over = false;
