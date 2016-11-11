@@ -72,3 +72,6 @@ The original files are at a length of 0 seconds, and mine were 1 and 2 seconds, 
 if it anticpated a file set at a specific length. I created a new test sound file at 0 seconds, but it had the same problem upon load. 
 I tried to cheat by created a sound file with a higher pitch so that it would play back at the desired pitch in game, but that sounded
 aweful, therefore I restored the original files instead and decided to try something else.
+
+I went through all the coding and looked for more interesting things to change, then changed the velocity to make the invaderers faster
+and set the background colour to midnight blue.

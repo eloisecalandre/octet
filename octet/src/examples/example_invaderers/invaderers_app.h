@@ -467,6 +467,7 @@ namespace octet {
       }
 
       // sounds
+	  // ELOISE changing Mono to Stereo for new sound files to run
       whoosh = resource_dict::get_sound_handle(AL_FORMAT_MONO16, "assets/invaderers/whoosh.wav");
       bang = resource_dict::get_sound_handle(AL_FORMAT_MONO16, "assets/invaderers/bang.wav");
       cur_source = 0;
