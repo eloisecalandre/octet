@@ -191,9 +191,11 @@ namespace octet {
     // speed of enemy
     float invader_velocity;
 
+	//ELOISE attempting to introduce a third sound
     // sounds
     ALuint whoosh;
     ALuint bang;
+	ALuint peasoup;
     unsigned cur_source;
     ALuint sources[num_sound_sources];
 
@@ -268,7 +270,8 @@ namespace octet {
             sprites[first_missile_sprite+i].is_enabled() = true;
             missiles_disabled = 5;
             ALuint source = get_sound_source();
-            alSourcei(source, AL_BUFFER, whoosh);
+			// ELOISE changing source from whoosh to peasoup
+            alSourcei(source, AL_BUFFER, peasoup);
             alSourcePlay(source);
             break;
           }
@@ -470,6 +473,8 @@ namespace octet {
 	  // ELOISE Aha, I see the sound files are 16bit Mono 
       whoosh = resource_dict::get_sound_handle(AL_FORMAT_MONO16, "assets/invaderers/whoosh.wav");
       bang = resource_dict::get_sound_handle(AL_FORMAT_MONO16, "assets/invaderers/bang.wav");
+	  // ELOISE adding new source for new asset peasoup
+	  peasoup = resource_dict::get_sound_handle(AL_FORMAT_MONO16, "assets/invaderers/peasoup.wav");
       cur_source = 0;
       alGenSources(num_sound_sources, sources);
 
