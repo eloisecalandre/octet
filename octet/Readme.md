@@ -80,4 +80,18 @@ Then when studying the code more closely I realised that the code specifies that
 64 bit STEREO). At first I tested whether I could change the code to accept 64bit Stereo, but that just corrupted the sound altogether, 
 so instead I used Abobe Audition software to convert my files to the right format to match the original - success at last!
 
-
+This enabled me to continue with my initial plan to introduce a third sound into the game play. I carefully read and made notes on all the places 
+that 'whoosh' and 'bang' occured in the coding and could see how they were being orchestrated. 
+I wanted to leave the 'whoosh' coding in place for dropping bombs (now vampire blood) with my new sound file in place of the original in the assets folder.
+And keep 'bang' for both "when we are hit" and "when we hit an enemy" as originally coded, but with my new sound file in plance of the original in the 
+assets folder.
+The third sound is for firing a missile, now peasoup vomit, to give it some autonomy. Therefore I folded the same method that I could see, 
+which took three steps:
+STEP 1
+first introducting a new Aluint command with 'peasoup' as the choosen name, at the same point as the first two Aluint commands for 'whoosh' and 'bang'.
+STEP 2
+with the "Find A Missile" subcommand of the "Fire button", I replaced 'whoosh' with my own 'peasoup' to point the alSourcei command to the 
+correct source (my 'peasoup')
+STEP 3
+introducing and defining the new source file in the assets folder, I used the same code as used for the 'whoosh' and 'bang' assets.
+This was successful. we now have three distinct sounds in use.
