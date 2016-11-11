@@ -95,3 +95,9 @@ correct source (my 'peasoup')
 STEP 3
 introducing and defining the new source file in the assets folder, I used the same code as used for the 'whoosh' and 'bang' assets.
 This was successful. we now have three distinct sounds in use.
+
+Here is the YouTube link:
+https://youtu.be/hzyrp2IcZpY
+
+and embed code:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hzyrp2IcZpY" frameborder="0" allowfullscreen></iframe>
