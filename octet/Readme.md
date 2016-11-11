@@ -77,4 +77,7 @@ I went through all the coding and looked for more interesting things to change, 
 and set the background colour to midnight blue.
 
 Then when studying the code more closely I realised that the code specifies that the sound files are 16 bit MONO (and my recordings were 
-64 bit STEREO) so I used Abobe Audition software to convert my files to the right format to match the original - success at last!
+64 bit STEREO). At first I tested whether I could change the code to accept 64bit Stereo, but that just corrupted the sound altogether, 
+so instead I used Abobe Audition software to convert my files to the right format to match the original - success at last!
+
+
