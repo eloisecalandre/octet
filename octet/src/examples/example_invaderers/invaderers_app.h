@@ -467,7 +467,7 @@ namespace octet {
       }
 
       // sounds
-	  // ELOISE changing Mono to Stereo for new sound files to run DIDN'T WORK 
+	  // ELOISE Aha, I see the sound files are 16bit Mono 
       whoosh = resource_dict::get_sound_handle(AL_FORMAT_MONO16, "assets/invaderers/whoosh.wav");
       bang = resource_dict::get_sound_handle(AL_FORMAT_MONO16, "assets/invaderers/bang.wav");
       cur_source = 0;

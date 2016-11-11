@@ -75,3 +75,6 @@ aweful, therefore I restored the original files instead and decided to try somet
 
 I went through all the coding and looked for more interesting things to change, then changed the velocity to make the invaderers faster
 and set the background colour to midnight blue.
+
+Then when studying the code more closely I realised that the code specifies that the sound files are 16 bit MONO (and my recordings were 
+64 bit STEREO) so I used Abobe Audition software to convert my files to the right format to match the original - success at last!
